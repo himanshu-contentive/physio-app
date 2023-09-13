@@ -2,6 +2,7 @@ import openai
 import os
 from dotenv import load_dotenv
 load_dotenv()
+from flask import Flask
 
 def get_chatgpt_response(user_input):
     response = openai.Completion.create(
@@ -47,3 +48,5 @@ if __name__ == "__main__":
 
     # Start the physiotherapy app
     physiotherapy_app()
+
+
