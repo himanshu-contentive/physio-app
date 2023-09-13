@@ -20,7 +20,7 @@ def decrypt_text(encrypted_text):
 @app.route('/')
 def index():
     # Your text to encrypt
-    plaintext = "OPEN_AI_KEY = 'Himanshu Kumar'"
+    plaintext = 'Himanshu Kumar'
     
     # Encrypt the text
     encrypted_data = encrypt_text(plaintext)
