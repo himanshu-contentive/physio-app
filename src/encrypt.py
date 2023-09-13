@@ -31,4 +31,4 @@ def index():
     return f"Original Text: {plaintext}<br>Encrypted Text: {encrypted_data}<br>Decrypted Text: {decrypted_data}"
 
 if __name__ == '__main__':
-    app.run(debug=True)
+    app.run(debug=True,port = 5001)
